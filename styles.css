@@ -46,3 +46,22 @@ body {
     font-weight: 600;
 }
 /* Lasagna.HTML CSS code */
+
+/* pancakes.html CSS code */
+.ingredients-pancakes li {
+    margin-bottom: 2px;
+}
+
+.ingredients-pancakes > li::marker {
+    content: "♥   ";
+    font-size: 10px;
+}
+
+.steps-pancakes li{
+    margin-bottom: 5px;
+}
+
+.steps-pancakes > li::marker {
+    font-weight: 600;
+}
+/* pancakes.html CSS code */
