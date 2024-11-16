@@ -2,10 +2,7 @@
 body {
     background-color: #e7e1da;
     margin-left: 30px;
-}
-
-.heading {
-    font-family: "avenir next", sans-serif;
+    font-family: 'avenir next', sans-serif;
 }
 
 .recipes .link {
@@ -17,7 +14,6 @@ body {
 .recipes .link a {
     text-decoration: none;
     color: coral;
-    font-family: "avenir next", sans-serif;
     font-weight: 500;
 }
 
@@ -28,3 +24,25 @@ body {
     border-radius: 5%;
 }
 /* index.html CSS code */
+
+/* Lasagna.HTML CSS code */
+.homepage-button {
+    text-decoration: none;
+    color: coral;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.ingredients-lasagna li {
+    margin-bottom: 2px;
+    list-style-type: square;
+}
+
+.steps-lasagna li {
+    margin-bottom: 5px;
+}
+
+.steps-lasagna > li::marker {
+    font-weight: 600;
+}
+/* Lasagna.HTML CSS code */
