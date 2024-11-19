@@ -1,36 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* index.html CSS code */
 body {
-    background-color: #e7e1da;
-    margin-left: 30px;
+    background-color: #e64b;
     font-family: 'avenir next', sans-serif;
+}
+
+.recipe-card {
+    width: 500px;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 15px auto;
+    background-color: #fffef1;
+}
+
+.heading {
+    padding-top: 17px;
+    margin: px 0px;
+    text-align: center;
 }
 
 .recipes .link {
     font-size: 20px;
     list-style-type: none;
     margin-bottom: 12px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1d5ab;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.recipe-module{
+    padding: 5px 0;
+}
+
+.recipe-module:hover{
+    transform: scale(1.04);
 }
 
 .recipes .link a {
     text-decoration: none;
-    color: coral;
+    color: #865612;
     font-weight: 500;
 }
 
 .recipes img {
-    width: 200px;
+    width: 300px;
     height: 150px;
     object-fit: cover;
-    border-radius: 5%;
+    display: block;
+    margin: 10px auto 0;
+    border-top-right-radius: 20px;
 }
+
 /* index.html CSS code */
 
 /* Lasagna.HTML CSS code */
 .homepage-button {
+    display: block;
     text-decoration: none;
-    color: coral;
     font-weight: 600;
     font-size: 17px;
+    background-color: #f1d5ab;
+    padding: 4px 10px 4px 4px;
+    width:130px;
+    text-align: center;
+    color: black;
+    border-bottom-right-radius: 20px;
+}
+
+.lasagna-recipe-card {   
+    width: 500px;
+    height: auto;
+    background-color: #fffef1;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    padding-bottom: 4px;
+}
+
+.homepage-button:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 5px #865612;
+}
+
+.lasagna-heading {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lasagna-img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: auto;
+}
+
+
+h3, h2, p {
+    margin: 10px 20px;
+}
+
+li {
+    margin-left: 25px;
 }
 
 .ingredients-lasagna li {
@@ -48,6 +126,25 @@ body {
 /* Lasagna.HTML CSS code */
 
 /* pancakes.html CSS code */
+.pancake-recipe-card {
+    background-color: #fffef1;
+    width: 500px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.pancake-heading {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pancake-img {
+    display: block;
+    margin: 0px auto;
+}
+
 .ingredients-pancakes li {
     margin-bottom: 2px;
 }
@@ -67,6 +164,25 @@ body {
 /* pancakes.html CSS code */
 
 /* pizza.html CSS code */
+.pizza-recipe-card {
+    background-color: #fffef1;
+    width: 500px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.pizza-heading {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pizza-img {
+    display: block;
+    margin: 0px auto;
+}
+
 .ingredients-pizza li {
     margin-bottom: 2px;
 }
